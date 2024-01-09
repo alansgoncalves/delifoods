@@ -17,3 +17,13 @@ CREATE TABLE delifoods.pedidos(
     status VARCHAR(40)
 )
 
+-- Criando a tabela clientes
+CREATE TABLE delifoods.clientes(	
+    id_cliente SERIAL PRIMARY KEY,
+    nome VARCHAR(40),
+    endereco VARCHAR(100),
+    cidade VARCHAR(15),
+    email VARCHAR(40),
+    telefone VARCHAR(20),
+)
+

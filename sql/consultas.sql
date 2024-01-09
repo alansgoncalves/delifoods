@@ -59,3 +59,21 @@ GROUP BY
     r.nome
 ORDER BY renda_total DESC
 
+-- Ticket Médio dos restaurantes
+SELECT
+    r.id_restaurante,
+    r.nome,
+    ROUND(SUM(dp.quantidade * pr.preco_unitario)/SUM(dp.quantidade),2) AS ticket_medio
+FROM delifoods.detalhes_pedidos dp
+JOIN 
+    delifoods.pedidos p ON dp.id_pedido = p.id_pedido
+JOIN 
+    delifoods.restaurante r ON p.id_restaurante = r.id_restaurante
+JOIN 
+    delifoods.produtos pr ON dp.id_produto = pr.id_produto
+WHERE p.status = 'Confirmado'
+GROUP BY
+    r.id_restaurante,
+    r.nome
+ORDER BY ticket_medio DESC
+

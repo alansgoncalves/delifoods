@@ -27,3 +27,11 @@ CREATE TABLE delifoods.clientes(
     telefone VARCHAR(20),
 )
 
+-- Criando a tabela produtos
+CREATE TABLE delifoods.produtos(
+    id_produto SERIAL PRIMARY KEY,
+    id_restaurante INT,
+    nome VARCHAR(20),
+    preco_unitario NUMERIC(16,2)
+)
+

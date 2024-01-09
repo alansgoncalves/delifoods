@@ -124,4 +124,36 @@ INSERT INTO delifoods.produtos(id_restaurante, nome, preco_unitario) VALUES
     (10, 'Refrigerante', 8.5),
     (10, 'Suco', 9.0);
 
+INSERT INTO delifoods.clientes (nome,endereco,cidade,email,telefone) VALUES
+    ('Lucas Oliveira', 'Rua dos Barcos, 192', 'Diamantina', 'wfvidlir@bgpplirj.com', 12345678),
+    ('Isabela Santos', 'Viela dos Corais, 175', 'Diamantina', 'axfdwtxvfr@bgnapkxd.gov', 98765432),
+    ('Rafael Lima', 'Beco das Marés, 196', 'Diamantina', 'gejomk@hjxwuvkuv.net', 87654321),
+    ('Mariana Costa', 'Travessa dos Piratas, 657', 'Diamantina', 'hizko@nivzhuzjmt.net', 23456789),
+    ('Gustavo Pereira', 'Alameda das  ncoras, 22', 'Diamantina', 'hpvjivmjkm@dimfagpxnm.gov', 56789012),
+    ('Ana Souza', 'Praça dos Náufragos, 818', 'Diamantina', 'bwditnxu@foiknvy.org', 34567890),
+    ('Pedro Almeida', 'Avenida dos Recifes, 779', 'Diamantina', 'zqnznoty@gpmzlw.com', 89012345),
+    ('Juliana Silva', 'Rua das Conchas, 538', 'Diamantina', 'wpjzyz@qzgxmau.net', 45678901),
+    ('Gabriel Rocha', 'Viela dos Tubarões, 737', 'Diamantina', 'puoywhtwst@fhbsniyr.gov', 54321098),
+    ('Carolina Mendes', 'Beco dos Golfinhos, 226', 'Diamantina', 'rsigsk@mqfpvvirq.org', 67890123),
+    ('Thiago Oliveira', 'Travessa das Tartarugas, 601', 'Diamantina', 'qrnomufaim@dpwxossxij.org', 21098765),
+    ('Amanda Santos', 'Alameda das Baleias, 886', 'Diamantina', 'qokhayeu@tiyoif.com', 78901234),
+    ('Bruno Costa', 'Praça dos Moluscos, 569', 'Diamantina', 'yyiqhkp@innxde.org', 13246578),
+    ('Larissa Lima', 'Avenida dos Oceanos, 44', 'Diamantina', 'lhclq@zpvaggic.org', 87654301),
+    ('Eduardo Pereira', 'Rua dos Navios, 916', 'Diamantina', 'exhcvdqid@wbnxaoocnu.com', 65432109),
+    ('Beatriz Oliveira', 'Viela dos Peixes, 503', 'Diamantina', 'ixlxxy@gosix.gov', 10987654),
+    ('Daniel Silva', 'Beco das Ostras, 952', 'Diamantina', 'ruvmrlaq@iviyzixlng.gov', 54321076),
+    ('Giovanna Almeida', 'Travessa das Águas, 197', 'Diamantina', 'zdfgzcy@tvovwup.net', 89076541),
+    ('Matheus Rocha', 'Alameda dos Leme, 109', 'Diamantina', 'hotiujvaeq@bkfevs.net', 45678923),
+    ('Camila Lima', 'Praça das Marés, 91', 'Diamantina', 'kgytbvz@ogipzycq.gov', 67890134),
+    ('Lucas Rodrigues', 'Avenida das Dunas, 687', 'Diamantina', 'fyfzhvh@kxzln.net', 34120987),
+    ('Gabriela Souza', 'Rua dos Surfistas, 969', 'Diamantina', 'kvhos@kxvcwj.net', 99876543),
+    ('Henrique Almeida', 'Viela das Conquistas, 237', 'Diamantina', 'giqrpcwykv@vwrnffglb.org', 76543210),
+    ('Isabella Pereira', 'Beco dos Coqueiros, 485', 'Diamantina', 'bwodiztp@aucsjj.net', 98701234),
+    ('Vinícius Costa', 'Travessa dos Cocos, 655', 'Diamantina', 'wlxzfbj@pwitb.org', 56781234),
+    ('Fernanda Oliveira', 'Alameda dos Abacaxis, 385', 'Diamantina', 'vndggstfdk@ltlane.com', 45670981),
+    ('André Santos', 'Praça das Mangas, 256', 'Diamantina', 'vxsnl@bwscx.net', 87654389),
+    ('Raquel Lima', 'Avenida dos Cajueiros, 596', 'Diamantina', 'btvinqtcm@jpjes.org', 43210987),
+    ('Rodrigo Rocha', 'Rua das Pitangas, 760', 'Diamantina', 'bsxvnooiak@xtqkq.gov', 89015672),
+    ('Júlia Almeida', 'Viela dos Guaranis, 215', 'Diamantina', 'lvigkpue@eurbytb.gov', 56789023);
+
 

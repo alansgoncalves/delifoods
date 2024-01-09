@@ -77,3 +77,15 @@ GROUP BY
     r.nome
 ORDER BY ticket_medio DESC
 
+-- 5 Clientes com a maior quantidade de pedidos da plataforma
+SELECT 
+	cl.nome,
+	p.id_cliente,
+	COUNT(p.id_cliente) AS cliente_pedidos
+FROM
+	delifoods.clientes cl
+JOIN
+    delifoods.pedidos p ON cl.id_cliente = p.id_cliente
+GROUP BY cl.nome, p.id_cliente
+ORDER BY id_cliente
+LIMIT 5

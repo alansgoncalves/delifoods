@@ -35,3 +35,9 @@ CREATE TABLE delifoods.produtos(
     preco_unitario NUMERIC(16,2)
 )
 
+-- Criando a tabela detalhes_pedidos
+CREATE TABLE delifoods.detalhes_pedidos (
+    id_pedido INT,
+    id_produto INT,
+    quantidade INT
+)
